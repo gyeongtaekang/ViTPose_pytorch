@@ -1,3 +1,7 @@
+# 강경태의 ViTPose 사용기
+
+이미지와 동영상 둘다 이미지 추정 가능하게 하였고, 가중치는 vitpose-b-multi-coco.pth 이거 하나로 이미지,동영상 둘다 가능합니다. 가중치는 다른거 써도 되지만 그럼 코드를 그 파일명에 맞게 바꿔야합니다. 
+
 # ViTPose (simple version w/o mmcv)
 An unofficial implementation of `ViTPose` [Y. Xu et al., 2022] <br>
 ![result_image](./examples/e1_result.jpg "Result Image")
@@ -40,6 +44,7 @@ python train.py --config-path config.yaml --model-name 'b'
 ## Reference
 All codes were written with reference to [the official ViTPose repo.](https://github.com/ViTAE-Transformer/ViTPose)
 
+## 참고
 
 ViTPose-B-Multi-COCO.pth 를 다운받아서  runs폴더안에 넣어야합니다.
 
