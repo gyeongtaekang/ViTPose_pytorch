@@ -8,6 +8,11 @@ An unofficial implementation of `ViTPose` [Y. Xu et al., 2022] <br>
 python inference.py --image-path './examples/img1.jpg'
 ```
 
+```
+python pose_estimation.py --video-path examples/sample.mp4
+
+```
+
 ### | **Training**
 ```
 python train.py --config-path config.yaml --model-name 'b'
